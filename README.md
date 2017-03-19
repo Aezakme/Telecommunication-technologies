@@ -20,4 +20,6 @@
 3. После получения доступа создать новую ветку (fork)
 4. Profit
 
-P.s. ссылка на desktop-ную версию [GitHub](https://desktop.github.com) 
+P.s. ссылка на desktop-ную версию [GitHub](https://desktop.github.com)
+
+![alt tag](http://www.oit.uci.edu/wp-content/uploads/Octocat.png) 
