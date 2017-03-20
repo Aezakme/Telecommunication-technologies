@@ -17,9 +17,12 @@
 ## Как принять участие
 1. Зарегистрироваться на GitHub
 2. Скинуть Кириллу ссылку на аккаунт
-3. После получения доступа создать новую ветку (fork)
+3. После получения доступа создать новую ветку (branch)
 4. Profit
 
 P.s. ссылка на desktop-ную версию [GitHub](https://desktop.github.com)
+<<<<<<< HEAD
 
 ![alt tag](http://www.oit.uci.edu/wp-content/uploads/Octocat.png) 
+=======
+>>>>>>> master

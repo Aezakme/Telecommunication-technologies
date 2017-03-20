@@ -1,0 +1,104 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[OT1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=1cm,bottom=2cm]{geometry}
+
+\begin{document}
+%page 1
+	\begin{titlepage}
+		\begin{center}
+			% Header
+			Санкт-Петербургский государственный политехнический университет Петра Великого \\
+			Кафедра компьютерных систем и программных технологий \\[7cm]
+			
+			% Title
+			\textbf{Отчет по лабораторной работе 1}\\[0.1cm]
+			\textbf{Дисциплина:} Телекоммуникационные технологии \\[0.1cm]
+			\textbf{Тема:} Работы с системой Latex \\[3cm]
+		\end{center}
+		
+		\vfill
+		
+		% Names
+		\flushleft{Выполнил студент гр. 33501/1} \hfill\parbox{8cm}{
+			\hspace*{3cm}\hspace*{-0.8cm}\rule{3cm}{0.8pt} Поляков К.О.}\\[0.6cm]
+		
+		\flushleft{Преподаватель} \hfill\parbox{8cm}{
+			\hspace*{3cm}\hspace*{-0.8cm}\rule{3cm}{0.8pt} Богач Н.А.}\\[0.6cm]
+		
+		\hfill\parbox{9cm}{\hspace*{3cm}``\rule{0.7cm}{0.8pt}''\rule{3cm}{0.8pt}~2017 г.}
+		\vfill
+		
+		
+		\begin{center}
+			% Bottom of the page
+			Санкт-Петербург \par
+			2017 г.
+		\end{center}
+	\end{titlepage}
+	%number of page
+	\setcounter{page}{2}
+	
+%Page 2
+\pagebreak
+
+\chapter{Введение}
+\section{Цель работы}
+Ознакомление с программой для верстки отчетов TeXShop.
+\section{Задача работы}
+Научиться создавать титульный лист, разделы, списки и писать несложные формулы в среде верстки отчетов TeXShop.
+\chapter{Выполнение работы}
+\section{Написание математических формул}
+
+\begin{enumerate}
+
+\item
+\begin{displaymath}
+	lim_{n \to \infty}
+	\sum_{k=1}^n \frac{25}{2*k^3} = \frac{\pi}{2}
+\end{displaymath}
+	
+\item 
+\begin{displaymath}
+	x^{3}+\sum_{x=1}^8 \frac{x}{2}= \sqrt{617}
+\end{displaymath}
+
+\item 
+\begin{displaymath}
+	x(t) = A * sin(w*t+f)
+\end{displaymath}
+
+\item
+\begin{displaymath}
+	y[n]= \sum_{k=-M_{1}}^{M_{2}}\frac{1}{M_{1}+M_{2}+1}x[n-k]
+\end{displaymath}
+
+\end{enumerate}
+
+Формула интеграла:
+\begin{displaymath}
+	\iint_{\frac{sin(x)}{x}+y^{2} = 1} f(x, y) dx dy 
+\end{displaymath}
+
+Теорема Парсеваля:
+\begin{displaymath}
+	\sum_{-\infty}^{\infty}|x[n]|^{2}=\frac{1}{2\pi}\int_{-\pi}^{\pi}|X(e^{j\omega})|^{2}d\omega
+\end{displaymath}
+
+
+\section{Интерпретация результатов}
+\LaTeX очень удобен для описания математических формул в отчетах. Имеется множество команд, которые заметно облегчают ввод дробных выражений, констант, переменных, производных, интегралов, дифференциалов и других формул. Таким образом, можно без особы трудностей вводить формулы различной сложности.
+
+%Page 3
+\pagebreak
+
+\chapter{Вывод}
+В данной лабораторной работе я познакомился  с системой создания и редактирования текстов TeXShop и расширением \LaTeX. Рассмотрел команды этой среды, необходимые для создания отчетов.
+Данный метод создания отчета поволяет намного быстрее и лаконичнее создавать математические формулы, автоматизированные отчеты и редактировать файл без особых аппаратных затрат.
+Система в виде скриптового языка оказалась гораздо привлекательнее в плане комфорта создания отчетов. Трудности могут возникнуть только при руссификации и совместимости версий, но и они просто решаются, благодаря большой армии поклонников \LaTeX
+\end{document}
