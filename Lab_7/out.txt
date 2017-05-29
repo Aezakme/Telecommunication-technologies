@@ -1,0 +1,4 @@
+Input word: Input word: 1101
+Word: 1101
+Endcode word: 1010101
+Decode word: 1101
